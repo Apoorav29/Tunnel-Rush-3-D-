@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- <script src="math.js" type="text/javascript"></script> -->
+    <!-- <script src="math.js" type="text/javascript"></script> -->
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+    <meta charset="utf-8">
+    <title>WebGL Demo</title>
+    <!-- <link rel="stylesheet" href="../webgl.css" type="text/css"> -->
+  </head>
+  <!-- <p align="center" style="color:white">Level:</p> -->
+  <body background="backimg3.jpg">
+    <textarea id="level" style="width:240px;height:50px;border:3px solid #cccccc;padding: 5px;font-family: Tahoma, sans-serif;font-size: 21px;background-color:yellow;display:block;margin-left:auto;margin-right:auto"></textarea>
+    <!-- <div id="level"><p>asfasdf</p></div> -->
+    <!-- <textarea rows="2" cols="20" style="background-color:yellow;display:block;margin-left:auto;margin-right:auto;"></textarea> -->
+    <!-- <div class="background" style="text-align: center;align-self: center;">
+      <div class="transbox" style="width:200px;text-align:center;align-items:center;">
+        <p align="center" style="color:white;background-color:yellow">asdfa</p>
+      </div>
+    </div> -->
+    <div id="overlay" style="position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color: rgba(0,0,0,1);cursor:pointer;z-index:2;background-image:url('pause.jpg');">PAUSED</div>
+    <canvas id="glcanvas" width="1350" height="680" ></canvas>
+  </body>
+
+  <script src="./gl-matrix.js"></script>
+  <script src="main.js"></script>
+  <script type="text/javascript" src="obstacles.js"></script>
+</html>
